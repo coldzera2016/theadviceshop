@@ -88,7 +88,7 @@ footer {
     width: 100%;
 }
 
-header#pageHeader a {
+#pageHeader a {
     text-decoration: none;
     color: white;
 }
@@ -159,6 +159,53 @@ footer a {
 
 footer .copyright {
     float: left;
+}
+footer {
+    padding-top: 0;
+    height: 40px;
+}
+
+#greeting {
+    color: blue;
+    font-weight: bold;
+}
+
+h3.prompt {
+    padding-left: 20px;
+}
+
+.specialfooter, #pageHeader2 {
+    background-color: royalblue;
+    color: black;
+    text-align: left;
+    padding-top: 1.5em;
+    padding-right: 1.5em;
+    padding-bottom: 1.5em;
+    padding-left: 1.5em;
+    clear: both;
+}
+
+#login2 {
+    float: right;
+    width: 12em;
+}
+
+.specialfooter, .specialfooter a {
+    padding-top: 0;
+    height: 40px;
+    color: black;
+}
+
+.errorinfo {
+    float: right;
+    color: red;
+}
+
+.promptinfo {
+    margin-left: 20px;
+}
+.rform {
+    margin-left: 20px;
 }
 
 /* Glyphicons from Bootstrap */

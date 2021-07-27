@@ -5,7 +5,7 @@ $name = substr($filename, 0, strrpos($filename, ".")); ?>
   <aside id="login">
       <form action="login.php?page=<?php echo $name; ?>" method="post">
           <input name="username" id="username" type="text" placeholder="Username">
-          <input name="password" id="password" type="text" placeholder="Password">
+          <input name="password" id="password" type="password" placeholder="Password">
           <input name="submit" type="submit" value="Login"><br>
           <a href="register.php">Register</a>
       </form>
